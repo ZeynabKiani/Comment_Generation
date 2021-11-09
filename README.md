@@ -9,7 +9,7 @@ transformers
 flair
 
 ### Usage
- Pass the parameters of Comment_Generator class to create a database connection
+ Pass the parameters of Comment_Generator Class to create a database connection
  
  Run main.py
 
