@@ -36,7 +36,7 @@ transformers
 flair
 
 ### Usage
- Pass the parameters of Comment_Generator Class to create a database connection
+ Pass the parameters of Comment_Generator Class to create a database connection for example: coll="my_coll", conn=pymongo.MongoClient("mongodb://localhost:27017/"), db_name='my_db'
  
  Run main.py
 
