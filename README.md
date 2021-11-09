@@ -27,7 +27,7 @@ Extract Topic of input text by facebook/bart-large-mnli' model, the input text i
 
  'gpt2' is used as pretrained model for generating text 
  
-  PERSON,GPE,ORG,DATE entities extracted frome input text are combined and combination of (PERSON+" "+GPE),(PERSON+" "+ORG),(PERSON+" "+DATE) are passed to gpt2 text generation model
+  PERSON,GPE,ORG,DATE entities extracted from input text are combined and combination of (PERSON+" "+GPE),(PERSON+" "+ORG),(PERSON+" "+DATE) are passed to gpt2 text generation model
   Finally new data in the form of {"_id":generated text,"topic":extracted topic} saved in database
  
  ## Requirements 
