@@ -210,7 +210,5 @@ class Comment_Generator:
                       except:
                          continue;
 
-cg=Comment_Generator()
-t='''Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese professional footballer who plays as a forward for Premier League club Manchester United and captains the Portugal national team'''
-cg.generate_comment(t)
+
 
