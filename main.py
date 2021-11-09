@@ -9,6 +9,6 @@ Original file is located at
 
 from comment_generator_final import *
 if __name__ == "__main__":
-   cg=Comment_Generator()
+   cg=Comment_Generator(coll="my_coll", conn=pymongo.MongoClient("mongodb://localhost:27017/"), db_name='my_db')
    cg.generate_comment("Donald John Trump (born June 14, 1946) is an American politician, media personality, and businessman who served as the 45th president of the United States ")
 
