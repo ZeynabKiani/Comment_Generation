@@ -156,7 +156,7 @@ class Comment_Generator:
 
               Returns
               -------
-              detect topic of the comment,topic categories are in ["artifacts", "animals", "food", "sport","technology",'travel', 'exploration', 'dancing', 'cooking','political']
+              detect topic of the comment,topic categories are in ["artifacts", "animals", "food", "sport","technology",'travel', 'exploration', 'dancing', 'cooking']
             """
             labels = ["artifacts", "animals", "food", "sport","technology",'travel', 'exploration', 'dancing', 'cooking']
             hypothesis_template = 'This text is about {}.'
