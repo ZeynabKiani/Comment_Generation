@@ -1,6 +1,7 @@
 # Comment_Generation 
-Generate text based on entities extracted by "ner-english-ontonotes-large" model from input text
-The recognized entity are below
+Generate text based on entities extracted by "ner-english-ontonotes-large" model from input text.
+
+The recognized entities are below
 
               | entity      | meaning              |
               |-------------+----------------------|
